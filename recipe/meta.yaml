@@ -37,11 +37,12 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=xlsxjars
-  license: GPL-3
+  license: GPL-3.0-only
   summary: The xlsxjars package collects all the external jars required for the xlxs package.
     This release corresponds to POI 3.10.1.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
