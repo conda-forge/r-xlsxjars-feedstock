@@ -1,11 +1,11 @@
-About r-xlsxjars
-================
+About r-xlsxjars-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-xlsxjars-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=xlsxjars
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-xlsxjars-feedstock/blob/main/LICENSE.txt)
 
 Summary: The xlsxjars package collects all the external jars required for the xlxs package. This release corresponds to POI 3.10.1.
 
