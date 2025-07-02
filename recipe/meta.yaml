@@ -1,4 +1,4 @@
-{% set version = '0.6.1' %}
+{% set version = "0.9.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/xlsxjars_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/xlsxjars/xlsxjars_{{ version }}.tar.gz
-  sha256: 37c1517f95f8bca6e3514429394d2457b9e62383305eba288416fb53ab2e6ae6
+  sha256: 4840093e9faf78b60540153ca9284a55e325bd0c7842aa66b6572af423eeebc0
 
 build:
-  number: 6
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -36,8 +36,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=xlsxjars
   license: GPL-3.0-only
-  summary: The xlsxjars package collects all the external jars required for the xlxs package.
-    This release corresponds to POI 3.10.1.
+  summary: The xlsxjars package collects all the external jars required for the xlxs package. This release corresponds to POI 3.10.1.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
